@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    background-color: #f6f4e6;
+    background-image: url('./img/mangabookcase.webp');
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+}
+
+tr {
+    height: 20px;
+}
+
+th, td {
+    text-align: center;
+    background-color: white;
+}
+
+.properties {
+    background-color: #fddb3a;
+}
+
+.book-number {
+   background-color: #d80d7c;
+   color: #f6f4e6;
+   width: 5%;
+}
+
+.material-icons {
+    position: relative;
+    top: 5px;
+    color: #f6f4e6;
+}
+
+
+.delete-column {
+    border: none;
+    width: 5%;
+}
+
+
+#author-header, #title-header {
+    width: 27.5%;
+}
+
+#genre-header {
+    width: 15%;
+}
+
+#pages-header, #read-header {
+    width: 7.5%;
+}
+
+.read {
+    background-color: #79d70f;
+}
+
+.not-read {
+    background-color: #000;
+}
+
+#delete-header {
+    visibility: hidden;
+}
+
+.delete-button {
+    height: 90%;
+    width: 100%;
+    float: left;
+    padding-bottom: 5px;
+    background-color: #d32626;
+    border: 2px solid #d32626;
+}
+
+#newbook-section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    color:#d80d7c ;
+    font-weight: bold;
+    background-color: #000;
+    
+   
+    
+}
+
+#newbook-button {
+    align-self: flex-end;
+    position: relative;
+    right: calc(5% + 3px);
+    width: 16%;
+    max-width: 130px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: large;
+    font-weight: 600;
+    background-color: #fddb3a;
+    color: #000;
+    border: 2px solid #d80d7c;
+    border-radius: 10em;
+}
+
+#input-field {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    position: relative;
+    top: 5px;
+}
+
+p {
+    height: 40px;
+    
+}
+
+.text-input {
+    font-size: 16px;
+    float: right;
+    width: 60%;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 10em;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+#read-radio {
+    margin-top: 5px;
+}
+
+.radio {
+    float: right;
+    width: 20px;
+}
+
+label {
+    float: right;
+}
+
+br {
+    line-height: 25px;
+}
+
+#add-button {
+    margin-top: 25px;
+    width: 60px;
+    height: 40px;
+    padding-bottom: 5px;
+    align-self: flex-end;
+    background-color: #d80d7c;
+    border: 2px solid #d80d7c;
+    border-radius: 10em;
+}
+
+#add-button .material-icons {
+    color: #000;
+}
